@@ -1,0 +1,20 @@
+<body>
+    <div class="background">
+        
+<%= form_with url: '/posts',method: :post,local:true do |form| %>
+<header class="header">
+    <div class="send">
+<%= form.text_field :content ,class:"left-send" %>
+<%= form.submit 'POST',class:"right-send" %>
+    </div>
+</header>
+<% end %>
+<% @posts.each do |post|%>
+<div class="main">
+<div class="post-content">
+<%= post.content %>
+</div>
+</div>
+<% end %>
+    </div>
+</body>

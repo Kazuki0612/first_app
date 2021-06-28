@@ -1,0 +1,50 @@
+.background{
+    height: 100vh;
+    background: #f5f5f3;
+}
+
+.header{
+    width: 800px;
+   background:#f5f5f3;
+   margin: 0 auto;
+}
+
+.send{
+    padding:25px 30px;
+    margin: 30px auto 40px;
+    background: #dededa;
+    display: flex;
+}
+
+.right-send{
+    width: 80px;
+    text-align: center;
+    background: #3AC0FB;
+    color: #fff;
+    margin-left: 10px;
+    border:none;
+}
+ 
+.left-send{
+    width: 600px;
+    height: 40px;
+    border:none;
+    padding: 0 15px;
+}
+
+.main{
+    width: 50%;
+    background: #fff;
+    display: block;
+    margin: 0 auto ;
+}
+
+
+.post-content{
+    padding:0 20px;
+    border: 1px solid #efefec;
+    background-color: #f9f9f7;
+    line-height: 42px;
+    margin-bottom: 10px;
+}
+
